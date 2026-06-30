@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0417/v1
+canonical_location: https://kanripo.org/bkk/KR4k0417/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 帝王要略一卷
+  identifiers:
+    krp: KR4k0417
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0417.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0417_001.yaml, hash: 'sha256:5a486ab87b411de994d7be501db8c78e4b08c6bd53e04d8ef28e172f04be1ab5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0417_001.markers.yaml, hash: 'sha256:d1f9432be4e90fc82eb6b3422c804518e47243a1cb0dbfe0d47f35d54064582c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0417_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 947
+  label: 帝王要略
+  type: section
+  level: 1
+hash: sha256:92fd45ab5815b5db76e1ed2df823345b7b7e0dfb97268e2881fbf701c8bf9a48
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
