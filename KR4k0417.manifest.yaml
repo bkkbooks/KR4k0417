@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4k0417/v1
 canonical_location: https://kanripo.org/bkk/KR4k0417/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 帝王要略一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4k0417_001.yaml, hash: 'sha256:535da0285aa04cb0df9c9876d15a03cfc616cf7ef82c72e03f7beed972df275a'}
+  - {seq: 1, filename: KR4k0417_001.yaml, hash: 'sha256:5a486ab87b411de994d7be501db8c78e4b08c6bd53e04d8ef28e172f04be1ab5'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4k0417_001.markers.yaml, hash: 'sha256:e8ca68bcb26ac037a08a834849a74ec86dcd01b74db10c422c85f8afe840898a'}
+  - {seq: 1, role: markers, filename: assets/KR4k0417_001.markers.yaml, hash: 'sha256:df79681b5e8bafc49d834219e69fc0b7ff0f08e320f4d6520c9831dd34c41844'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 帝王要略
   type: section
   level: 1
-hash: sha256:b3b6cdeea4710c26e5ba71643b42303d3f42516297f9c49707a24c940a86023c
+hash: sha256:54335f66eca770efdfc4b64d6e02320606143ac8cd1aa291068ff9f1f068611e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
